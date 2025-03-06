@@ -5,7 +5,7 @@
   "description": "Web based holographic clock",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build --dist-dir ../dist --public-url . --no-cache index.html"
+    "build": "parcel build --dist-dir ./dist --public-url ./holoclock --no-cache index.html"
   },
   "author": "Frank Oppervoll-Larsen",
   "license": "UNLICENSED",
@@ -19,5 +19,4 @@
   "dependencies": {
     "nosleep.js": "*"
   }
-
 }
