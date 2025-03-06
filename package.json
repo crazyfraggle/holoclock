@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "Holoclock JS",
+  "version": "0.0.1",
+  "description": "Web based holographic clock",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --dist-dir ../dist --public-url . --no-cache index.html"
+  },
+  "author": "Frank Oppervoll-Larsen",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3",
+    "rimraf": "^6.0.1",
+    "svgo": "^3.3.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "nosleep.js": "*"
+  }
+
+}
